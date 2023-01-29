@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Santiago De los santos
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">Skills</a>
+          <a class="topmenu" href="#about-me">Projets</a>
+          <a class="topmenu" href="#about-me">Recomendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="data:image/jpeg;base64,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"
+         class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Sntiago De los santos! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            Hiii, I'm Santi and i just trying my best, im doing this course while im Working
+            and useing the work computer whom has window 98 and can't take screenshots,
+            srry about the cellphone photos :(
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div> 
+
+        <!-- Add more skills here -->
+
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Node Js</h6>
+            <p>1 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="html_finalprojimages/flash.png"/>
+            <h6>Flash</h6>
+            <p>1 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="html_finalprojimages/react.png"/>
+            <h6>React</h6>
+            <p>5 years experience</p>
+          </div> 
+
+          
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>e-comerce</h3>
+            <ul>
+              <li>you can buy thing </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>testing automated</h3>
+            <ul>
+              <li>im useing it to improve my testing skills/li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>minecraft server</h3>
+            <ul>
+              <li>a server where you can play with friends</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          santi is a genious i recomend his work.
+          He is very responsable and punctual with his projects
+          and is very cheap :D.
+          Leo Dicaprio
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          He is a very good co-worker, he is always ready to healp others and i love to have interesting talks wtih his.
+          plese hire him.
+          My mom 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          he is the best, we work together in our first IT job and he have grown a lot since then, i'm very proud of the person that he have became.
+          Random guy 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation(
+                showPopup(true))">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>thanks for leaving a recomendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
